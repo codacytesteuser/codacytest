@@ -1,0 +1,14 @@
+org/codacy/TC_10_ValidateIssuesPage.class
+org/codacy/TC_06_ValidateProjectPage.class
+org/codacy/TC_09_ValidateFilePage.class
+org/codacy/TC_03_LoginWithBitBucket.class
+org/codacy/TC_04_LoginWithGitHub.class
+org/codacy/TC_12_ValidatePullRequetsPage.class
+org/codacy/TC_05_ValidateSignUpPage.class
+org/codacy/TC_11_ValidatePullRequetsPage.class
+org/codacy/TC_07_HomepageVerifyImg.class
+org/codacy/TC_06_HomepageVerifyLink.class
+org/codacy/TC_07_ValidateDashBoardPage.class
+org/codacy/TC_08_ValidateCommitsPage.class
+org/codacy/TC_02_LoginWithGoogle.class
+org/codacy/TC_01_ValidateHomepage.class

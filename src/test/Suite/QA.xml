@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="5" configfailurepolicy="continue" >
+    <listeners>
+        <listener class-name="org.codacy.TestListener"/>
+        <listener class-name="org.codacy.AnnotationTransformer"/>
+    </listeners>
+    <parameter name="environment" value="QA"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Validate HomePage" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_01_ValidateHomepage"></class>
+        </classes>
+    </test>
+    <test name="Login with Google" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_02_LoginWithGoogle"></class>
+        </classes>
+    </test>
+    <test name="Login with BitBucket" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_03_LoginWithBitBucket"></class>
+        </classes>
+    </test>
+    <test name="Login with GitHub" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_04_LoginWithGitHub"></class>
+        </classes>
+    </test>
+    <test name="Validate SignUp Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_05_ValidateSignUpPage"></class>
+        </classes>
+    </test>
+    <test name="Validate Project Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_06_ValidateProjectPage"></class>
+        </classes>
+    </test>
+    <test name="Validate Dashboard Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_07_ValidateDashBoardPage"></class>
+        </classes>
+    </test>
+    <test name="Validate Commits Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_08_ValidateCommitsPage"></class>
+        </classes>
+    </test>
+    <test name="Validate File Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_09_ValidateFilePage"></class>
+        </classes>
+    </test>
+    <test name="Validate Issues Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_10_ValidateIssuesPage"></class>
+        </classes>
+    </test>
+    <test name="Validate Pull Requets Page" annotations="JDK" preserve-order="true">
+    <classes>
+        <class name="org.codacy.TC_11_ValidatePullRequetsPage"></class>
+    </classes>
+</test>
+    <test name="Validate Security Page" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="org.codacy.TC_12_ValidateSecurityPage"></class>
+        </classes>
+    </test>
+</suite>
