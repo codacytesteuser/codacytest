@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class NavBar extends BasePage {
+    private static final String NAVBAR_ICON3 = "navbar_codacylogo";
     private static final String NAVBAR_ICON2 = "navbar_codacylogo";
     private static final String NAVBAR_ICON = "navbar_codacylogo";
     private static final String NAVBAR_DROPDOWN_ORGANIZATION = "dropdown-organization-name";
