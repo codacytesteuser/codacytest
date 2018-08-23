@@ -6,6 +6,7 @@
     <artifactId>Selenium</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <packaging>ja1r</packaging>
 
     <name>Selenium</name>
     <url>http://maven.apache.org</url>
