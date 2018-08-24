@@ -7,6 +7,8 @@ import { createStore, applyMiddleware } from 'redux';
 import { loadState, saveState } from '../views/local-storage';
 import rootReducer from '../views/reducers/index';
 import Main from '../views/main.jsx';
+import Main2 from '../views/main.jsx';
+
 
 const persistedState = loadState();
 const store = createStore(rootReducer,
