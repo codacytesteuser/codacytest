@@ -9,6 +9,8 @@ import rootReducer from '../views/reducers/index';
 import Main from '../views/main.jsx';
 import Main2 from '../views/main.jsx';
 import Main3 from '../views/main.jsx';
+import Main4 from '../views/main.jsx';
+
 
 
 const persistedState = loadState();
