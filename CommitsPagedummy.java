@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.lang.management.GarbageCollectorMXBean;
 
 public class CommitsPage extends BasePage {
+    private static final String COMMIT_TABLE17 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE16 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE15 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE14 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
