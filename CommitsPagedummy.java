@@ -8,7 +8,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.lang.management.GarbageCollectorMXBean;
 
-public class CommitsPage extends BasePage {
+public class COMMISTPAGE extends BasePage{
+    private static final String COMMIT_TABLE29 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE28 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE27 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
     private static final String COMMIT_TABLE26 = "//*[@class=\"pull-left col-xs-12 files-wrapper4\"]";
@@ -69,11 +70,11 @@ public class CommitsPage extends BasePage {
     private static final String DETAIL_DIFF_PANEL = "diffView";
     private static final String COMMIT_VIEW_LOGS = "logs_open";
 
-    public CommitsPage(RemoteWebDriver driver, Environment env) {
+    public CommitsPage(RemoteWebDriver driver, Environment env){
         super(driver, env);
     }
 
-    public void validateCommitTable() {
+    public void validateCommitTable (){
         getElementWhenVisible(By.xpath(COMMIT_TABLE)).isDisplayed();
         getElementWhenVisible(By.id(COLUMN_STATUS)).isDisplayed();
         getElementWhenVisible(By.id(COLUMN_AUTHOR)).isDisplayed();
