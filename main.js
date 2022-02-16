@@ -18,13 +18,13 @@ const store = createStore(rootReducer,
     persistedState,
     composeWithDevTools(
       applyMiddleware(
-        createLogger({ collapsed: true })
+        createLogger({ collapsed: false })
       )
     )
   );
 
 store.subscribe(() => {
-  var c = "123" + "333"
+  var c = "123" + "333" + "456"
   saveState(store.getState());
 });
 
